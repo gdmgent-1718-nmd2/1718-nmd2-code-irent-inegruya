@@ -1,0 +1,104 @@
+---
+layout   : default
+permalink: winkelmandje/stap2
+title: Betaal  
+---
+
+<nav aria-label="breadcrumb" role="navigation">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="../winkelmandje/index.html">Winkelmandje</a></li>
+      <li class="breadcrumb-item"><a href="#">betaal </a></li>
+    </ol>
+</nav>
+
+<div class="row mb-5 d-flex justify-content-center">
+  <a href="#"> <button type="button" class="btn btn-primary btn-lg rounded-circle px-4 py-2"> 1 </button> </a>
+  <button type="button" class="btn btn-primary btn-lg rounded-circle ml-5 px-4" disabled> 2 </button>
+</div>
+
+<div class="row">
+  <button type="button" class="btn btn-primary rounded-circle px-4 py-2 mr-3"> 1 </button>
+  <h4 class="mt-2"> Betaling </h4>
+</div>
+
+<div class="row mx-auto mb-4 d-flex justify-content-center">
+  <a href="#"> <button type="button" class="btn btn-primary btn-winkelmandje "> Credit Card  </button> </a>
+  <a href="#"> <button type="button" class="btn btn-rimary  btn-winkelmandje ml-2"> Pay Pal </button></a>
+</div>
+
+<form class="mx-auto">
+  <div class="form-row">
+      <div class="form-group col-md-6">
+          <input type="" class="form-control" id="inputkaartnummer" placeholder="Kaartnummer">
+      </div>
+  </div>
+  <div class="form-row">
+      <div class="form-group col-md-3">
+          <input type="text" class="form-control" id="inputmaand" placeholder="maand">
+      </div>
+      <div class="form-group col-md-3">
+        <input type="text" class="form-control" id="inputjaar" placeholde="jaar">
+      </div>
+      <div class="form-group col-md-3">
+        <input type="number" class="form-control" id="inputCVC" placeholder="CVC">
+      </div>
+  </div>
+  <div class="form-row">
+    <small id="transactiesveilig" class="form-text text-muted mb-3">
+      Alle transacties zijn veilig
+      </small>
+  </div>
+</form>
+
+<h4 class="mt-3"> Factuuradres </h4>
+<form>
+  <div class="form-group row">
+    <div class="col-md-6">
+      <input type="text" class="form-control mb-2" id="inputnaam" placeholder="naam">
+    </div>
+    <div class="col-md-6">
+      <input type="text" class="form-control" id="inputvoornaam" placeholder="voornaam">
+    </div>
+  </div>
+  <div class="form-group row">
+    <div class="col-md-12">
+      <input type="text" class="form-control" id="inputstraat" placeholder="straat">
+    </div>
+  </div>
+  <div class="form-group row">
+    <div class="col-md-4">
+      <input type="text" class="form-control mb-2" id="inputnumber" placeholder="nummer">
+    </div>
+    <div class="col-md-4">
+      <input type="text" class="form-control mb-2" id="inputpostcode" placeholder="postcode">
+    </div>
+    <div class="col-md-4">
+        <select id="inputLand" class="form-control">
+          <option selected>  Land </option>
+          <option> Australië </option>
+          <option> België</option>
+          <option> Canada </option>
+          <option> China </option>
+          <option> Duitsland </option>
+          <option> Hongarije </option>
+          <option> India </option>
+          <option> Japan </option>
+          <option> Maleisië </option>
+          <option> Nederland </option>
+          <option> Verenigde Staten </option>
+        </select>
+    </div>
+  </div>
+  <div class="form-group row">
+    <div class="col-md-12">
+      <input type="email" class="form-control" id="inputemail" placeholder="email">
+    </div>
+  </div>
+  <div class="form-group row">
+    <div class="col-md-12">
+      <input type="email" class="form-control" id="inputtelefoonnummer" placeholder="telefoonnummer">
+    </div>
+  </div>
+    <a href="../winkelmandje/index.html"> <button class="btn btn-secondary mb-5 col-md-3"> terug </button> </a>
+    <a href="../winkelmandje/bevestiging.html"> <button class="btn btn-primary mb-5 col-md-4"> verder </button> </a>
+  </form>

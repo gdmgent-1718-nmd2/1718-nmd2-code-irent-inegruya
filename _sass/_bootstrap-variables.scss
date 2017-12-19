@@ -8,13 +8,37 @@
 // Color system
 //
 
-$indigo:  #6610f2;
-$primary: $indigo;
+$darkpurple: #480719;
+$purple:  #8c3e54;
+$orange: #FF9854;
+$white: #ffffff;
+
+
+$primary: $purple;
+$titelentekst: $darkpurple;
+
 
 // Fonts
 //
 // Font, line-height, and color for body text, headings, and more.
 
-@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two');
 
-$font-family-base: Merriweather, serif;
+$font-family-base: 'Dosis', sans-serif;
+$blockquote: 'Lobster Two', cursive;
+
+$h1-font-size: 4.5rem;
+$h2-font-size: 3.5rem;
+$h3-font-size: 3rem;
+
+
+//links 
+
+$link-color: $darkpurple;
+$link-hover-color: $orange;
+$link-hover-decoration: none;
+
+// placeholder
+$inpput-placeholder-color: $darkpurple;
+//

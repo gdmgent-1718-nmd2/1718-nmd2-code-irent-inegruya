@@ -1,0 +1,12 @@
+- title: Home
+  url: /index.html
+- title: over ons
+  url: /overons.html
+- title: product
+  url: /product/index.html
+- title: Contact
+  url: /contact.html
+- title: login
+  url: /login/index.html
+- title: winkelmandje
+  url: /winkelmandje/index.html

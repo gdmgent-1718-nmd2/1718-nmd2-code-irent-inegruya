@@ -1,0 +1,38 @@
+---
+layout   : default
+permalink: login/wachtwoord_vergeten 
+title: wachtwoord vergeten  
+---
+
+<nav aria-label="breadcrumb" role="navigation">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../login/index.html">login</a></li>
+    <li class="breadcrumb-item"><a href="#">wachtwoord vergeten </a></li>
+  </ol>
+</nav>
+
+<h3 class="text-center mt-5"> Nieuw wachtwoord instellen </h3>
+
+<form class="col-6 mx-auto">
+    <div class="form-group">
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="email">
+    </div>
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+    Verzend
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          Er werd een email naar u verzonden
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</form>

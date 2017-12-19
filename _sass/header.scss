@@ -1,0 +1,17 @@
+
+.navbar-dark {
+    background-color: $orange; 
+}
+
+.nav-link:hover {
+    background-color: $white;
+}
+
+.nav-pills > li > a {
+    color: $white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 15px;
+    display: inline-block;
+}
+

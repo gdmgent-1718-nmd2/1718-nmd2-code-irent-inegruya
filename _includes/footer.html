@@ -1,12 +1,14 @@
-<div class="row font-weight-bold mt-5">
+<hr class="featurette-divider">
+
+<div class="row font-weight-bold mt-2 ">
     <div class="col-md-4">
-        <p> <a href="#"> Contact</a></p>
+        <p> <a href="/1718-nmd2-code-irent-inegruya/contact.html"> Contact</a></p>
     </div>
     <div class="col-md-4">
-        <p><a href="#"> Over Ons </a> </p>
+        <p><a href="/1718-nmd2-code-irent-inegruya/overons.html"> Over Ons </a> </p>
     </div>
     <div class="col-md-4">
-        <button class="btn btn-secondary"><a href="#"> Boek Nu </a> </button>
+        <a href="winkelmandje/index.html"> <button class="btn btn-secondary"> Boek Nu </button> </a>
     </div>
 </div>
 
@@ -16,19 +18,38 @@
         <a class="btn  btn-social-icon btn-facebook" href="#"></a>
     </div>
     <div class="col-md-4">
-        <a href="#"> Product </a>
+        <p> <a href="product/index.html"> Product </a> </p>
     </div>
     <div class="col-md-4">
         <form>
             <div class="form-group">
                 <label for="exampleInputEmail1">Nieuwsbrief</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="email">
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="email" required>
+                    <div class="invalid-feedback">
+                        Gelieve een geldig e-mailadres in te vullen 
+                    </div>
             </div>
-            <button type="submit" class="btn btn-primary">schrijf in </button>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">
+            Inschrijven
+            </button>
         </form>
+  
+  <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+            U bent ingeschreven voor onze nieuwsbrief
+            </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+    </div>
+</div>
     </div>
 </div>
 
-<div class="row">
-    <i class="fa fa-copyright" aria-hidden="false"> 2017/lounched</i>
+<div class="row mb-5 d-flex mx-auto">
+    <i class="fa fa-copyright" aria-hidden="true"> 2017 lounched</i>
 </div>

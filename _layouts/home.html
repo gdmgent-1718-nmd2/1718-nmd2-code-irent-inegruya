@@ -7,16 +7,15 @@
     <link rel="stylesheet" href="{{ site.baseurl }}{% link assets/css/app.scss %}">
 </head>
 <body>
-    <div class="container">
+<div class="container">
     {% include header.html %}
-    
+        
     {{ content }}
     
-
-{% include footer.html %}
-
+    {% include footer.html %}
+    
 </div>
-{% include scripts-bottom.html %}
+    {% include scripts-bottom.html %}
 
 </body>
 </html>

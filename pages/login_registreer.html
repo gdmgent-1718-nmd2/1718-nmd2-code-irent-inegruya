@@ -4,75 +4,15 @@ layout   : default
 permalink: login/registreer 
 title: registreer  
 
-landen:
-    -
-        label: België
-    -
-        Label: The United States
-    -
-        Label: Japan
-    -
-        Label: China
-    -
-        Label: Australia
-    -
-        Label: India 
-    -
-        Label: Egypt
-    -
-        label: Brazilië
-    -
-        Label: France
-    -
-        Label: United Kingdom
-    -
-        Label: Italie
-    -
-        Label: Sweden
-    -
-        Label: Norwegain 
-    -
-        Label: Canada
-    -
-        Label: Denmark
-    -
-        label: Russia
-    -
-        Label: South-Korea
-    -
-        Label: Portugal
-    -
-        Label: Spain
-    -
-        Label: Monaco
-    -
-        Label: Cuba 
-    -
-        Label: Tsjechie
-    -
-        label: South-Africa
-    -
-        Label: Mexico
-    -
-        Label: Estonia
-    -
-        Label: Luxembourg
-    -
-        Label: Litouwen
-    -
-        Label: Cyprus 
-    -
-        Label: Poland
-    -
-        label: Germany
-    -
-        Label: Vietnam
-    -
-        Label: Taiwan
-    -
-        Label: Maleisie
+---
 
---- 
+<nav aria-label="breadcrumb" role="navigation">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="../login/index.html">login</a></li>
+      <li class="breadcrumb-item"><a href="#"> registreer </a></li>
+    </ol>
+</nav>
+
 <h2> {{ page.title }}</h2>
 
 <form class="mx-auto">
@@ -99,8 +39,18 @@ landen:
         <div class="form-group col-md-3">
             <select id="inputLand" class="form-control">
                 <option selected>  Land </option>
-                <option> </option>
-                <option> </option>
+                <option> Australië </option>
+                <option> België</option>
+                <option> Canada </option>
+                <option> China </option>
+                <option> Duitsland </option>
+                <option> Hongarije </option>
+                <option> India </option>
+                <option> Japan </option>
+                <option> Maleisië </option>
+                <option> Nederland </option>
+                <option> Verenigde Staten </option>
+
             </select>
         </div>
     </div>
@@ -114,7 +64,7 @@ landen:
             <input type=" number" class="form-control" id="inputTelefoonnummer" placeholder="telefoonnummer">
         </div>
     </div>
-    <button type="submit" class="btn btn-success"> registreer </button>
+    <button type="submit" class="btn btn-primary"> registreer </button>
   </form>
 
 

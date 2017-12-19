@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two');
+// index //
+
+.jumbotron {
+    background-image: url("../images/achtergrond-index.png")
+}
+
+
+//text //
+.blockquote {
+    font-family: "Lobster Two", cursive;
+    font-size: 24px;
+}
+
+h1, h2, h3,h4, p {
+    color: $titelentekst;
+}
+
+h1, h2 {
+    font-weight: 500;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+a {
+    font-size: 1rem;
+}
+
+// forms //
+.form-control {
+    border: none;
+    border-bottom: 2px solid $orange;
+}
+
+.form-control:focus {
+    border: none;
+    border-bottom: 2px solid $purple;
+}
+
+
+//buttons //
+.btn {
+    font-weight: 600;
+}
+
+
+.btn-primary {
+    border: 3px solid $orange;
+    background-color: $white;
+    color: $darkpurple;
+    transition-duration: 0.5s;
+}
+
+.btn-primary:hover {
+    border: 3px solid $purple;
+    background-color: $purple;
+    color: $white;
+    padding: 10px 20px 10px 20px;
+}
+
+.btn-secondary {
+    border: 3px solid $purple;
+    background-color: $white;
+    color: $darkpurple;
+    transition-duration: 0.5s;
+}
+
+.btn-secondary:hover {
+    border: 3px solid $orange;
+    background-color: $orange;
+    color: $white;
+}
+
+
+// winkelmandje //
+.winkelmandje {
+    margin-top: 140px;
+}
+
+//cards //
