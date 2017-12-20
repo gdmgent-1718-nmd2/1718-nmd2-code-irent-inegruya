@@ -1,24 +1,28 @@
 <hr class="featurette-divider">
 
 <div class="row font-weight-bold mt-2 ">
-    <div class="col-md-4">
-        <p> <a href="/1718-nmd2-code-irent-inegruya/contact.html"> Contact</a></p>
+    <div class="col-sm-4">
+        <p> <a href="{{ site;baseurl }}{% link pages/contact.html %}"> Contact</a></p>
     </div>
-    <div class="col-md-4">
-        <p><a href="/1718-nmd2-code-irent-inegruya/overons.html"> Over Ons </a> </p>
+    <div class="col-sm-4">
+        <p><a href="{{ site.baseurl }}{% link pages/overons.html %}"> Over Ons </a> </p>
     </div>
-    <div class="col-md-4">
-        <a href="winkelmandje/index.html"> <button class="btn btn-secondary"> Boek Nu </button> </a>
+    <div class="col-sm-4">
+        <a href="{{ site.baseurl }}{% link pages/winkelmandje.html %}"> <button class="btn btn-secondary"> Boek Nu </button> </a>
     </div>
 </div>
 
 <div class="row font-weight-bold">
-    <div class="col-md-4">
-        <a class="btn  btn-social-icon btn-instagram" href="#"></a>
-        <a class="btn  btn-social-icon btn-facebook" href="#"></a>
+    <div class="col-md-4 ">
+        <a href="https://www.instagram.com/arteveldegdm/">
+            <div id="instagram"></div>
+        </a>
+        <a href="https://www.facebook.com/GrafischeendigitalemediaArteveldehogeschool/">
+            <div id="facebook"></div>
+        </a>
     </div>
     <div class="col-md-4">
-        <p> <a href="product/index.html"> Product </a> </p>
+        <p> <a href="{{ site.baseurl }}{% link pages/product.html %}"> Product </a> </p>
     </div>
     <div class="col-md-4">
         <form>

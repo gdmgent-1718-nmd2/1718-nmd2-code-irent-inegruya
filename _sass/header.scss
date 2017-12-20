@@ -4,7 +4,11 @@
 }
 
 .nav-link:hover {
-    background-color: $white;
+    background-color: $purple;
+}
+
+.nav-link:focus {
+    background-color: $purple;
 }
 
 .nav-pills > li > a {
@@ -15,3 +19,6 @@
     display: inline-block;
 }
 
+.navbar-nav {
+    text-align: right;
+}

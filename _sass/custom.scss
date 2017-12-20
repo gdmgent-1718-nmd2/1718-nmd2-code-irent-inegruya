@@ -1,10 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster+Two');
-// index //
+// jumbotron //
 
-.jumbotron {
-    background-image: url("../images/achtergrond-index.png")
+.jumbotron-top {
+    background-image: url("../../images/achtergrond-index.png")
+}
+.jumbotron-end {
+    background-image: url("../../images/achtergrond-index-2.png")
+}
+.jumbotron-tekst {
+    font-weight: bold;
+    color: $white;
 }
 
+
+.btn-index {
+    transition: all 2s ease-in-out;
+}
+
+.btn-index:hover {
+    transform: scale(6,3)
+}
 
 //text //
 .blockquote {
@@ -73,10 +88,76 @@ a {
     color: $white;
 }
 
+//icons //
+#instagram {
+    background-image: url('../../images/instagram.png');
+    height: 35px;
+    width: 36px;
+}
+
+#instagram:hover {
+    background-image: url('../../images/instagram-hover.png');
+}
+
+#facebook {
+    background-image: url('../../images/facebook.png');
+    height: 35px;
+    width: 35px;
+}
+
+#facebook:hover {
+    background-image: url('../../images/facebook-hover.png');
+}
+
+
 
 // winkelmandje //
 .winkelmandje {
-    margin-top: 140px;
+    margin-top: 80px;
 }
 
-//cards //
+//images//
+
+.img-product {
+    transition: all 0.5s ease-in-out;
+}
+
+.img-product:hover {
+    transform: scale(2.1);
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 768px) { 
+    
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+    h1 {
+        font-size: 4rem;
+    }
+
+    h2 {
+        font-size: 3,5rem;
+    }
+    h3 {
+        font-size: 3rem;
+    }
+    h4 {
+        font-size: 2rem;
+    }
+ }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+    .jumbotron-end {
+        height: 400px;
+        width: 100%;
+    }
+
+ }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+
+ }
