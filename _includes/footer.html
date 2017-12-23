@@ -1,59 +1,65 @@
 <hr class="featurette-divider">
 
-<div class="row font-weight-bold mt-2 ">
-    <div class="col-sm-4">
-        <p> <a href="{{ site;baseurl }}{% link pages/contact.html %}"> Contact</a></p>
-    </div>
-    <div class="col-sm-4">
-        <p><a href="{{ site.baseurl }}{% link pages/overons.html %}"> Over Ons </a> </p>
-    </div>
-    <div class="col-sm-4">
-        <a href="{{ site.baseurl }}{% link pages/winkelmandje.html %}"> <button class="btn btn-secondary"> Boek Nu </button> </a>
-    </div>
-</div>
-
-<div class="row font-weight-bold">
-    <div class="col-md-4 ">
-        <a href="https://www.instagram.com/arteveldegdm/">
-            <div id="instagram"></div>
-        </a>
-        <a href="https://www.facebook.com/GrafischeendigitalemediaArteveldehogeschool/">
-            <div id="facebook"></div>
-        </a>
-    </div>
-    <div class="col-md-4">
-        <p> <a href="{{ site.baseurl }}{% link pages/product.html %}"> Product </a> </p>
-    </div>
-    <div class="col-md-4">
-        <form>
-            <div class="form-group">
-                <label for="exampleInputEmail1">Nieuwsbrief</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="email" required>
-                    <div class="invalid-feedback">
-                        Gelieve een geldig e-mailadres in te vullen 
-                    </div>
+<footer>
+    <div class="container container-fluid">
+        <div class="row font-weight-bold mt-2 ">
+            <div class="col-sm-4">
+                <p> <a href="{{ site;baseurl }}{% link pages/contact.html %}"> Contact</a></p>
             </div>
+            <div class="col-sm-4">
+                <p><a href="{{ site.baseurl }}{% link pages/overons.html %}"> Over Ons </a> </p>
+            </div>
+            <div class="col-sm-4">
+                <p><a href="{{ site.baseurl }}{% link pages/winkelmandje.html %}"> <button class="btn btn-secondary btn-footer"> Boek Nu </button> </a> </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-2 ">
+                <a href="https://www.instagram.com/arteveldegdm/" target="_blank">
+                    <div id="instagram"></div>
+                </a>
+            </div>
+            <div class="col-sm-2">
+                <a href="https://www.facebook.com/GrafischeendigitalemediaArteveldehogeschool/" target="_blank">
+                    <div id="facebook"></div>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <p> <a href="{{ site.baseurl }}{% link pages/product.html %}"> Product </a> </p>
+            </div>
+            <div class="col-md-4">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Nieuwsbrief</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="email" required>
+                            <div class="invalid-feedback">
+                            Gelieve een geldig e-mailadres in te vullen 
+                            </div>
+                    </div>
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">
-            Inschrijven
-            </button>
-        </form>
+                    <button type="button" class="btn btn-secondary d-flex mx-auto btn-footer" data-toggle="modal" data-target="#exampleModal">
+                    Inschrijven
+                    </button>
+                </form>
   
   <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-body">
-            U bent ingeschreven voor onze nieuwsbrief
+            <div class="modal fade " id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                        U bent ingeschreven voor onze nieuwsbrief
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
             </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+
+        <div class="row mb-5 mt-4 d-flex mx-auto">
+            <i class="fa fa-copyright" aria-hidden="true"> 2017 lounched</i>
         </div>
     </div>
-</div>
-    </div>
-</div>
-
-<div class="row mb-5 d-flex mx-auto">
-    <i class="fa fa-copyright" aria-hidden="true"> 2017 lounched</i>
-</div>
+</footer>

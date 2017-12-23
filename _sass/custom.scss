@@ -18,7 +18,13 @@
 }
 
 .btn-index:hover {
-    transform: scale(6,3)
+    transform: scale(3,2)
+}
+
+//footer//
+.footer-tekst {
+    display: block;
+    text-align: center;
 }
 
 //text //
@@ -29,6 +35,7 @@
 
 h1, h2, h3,h4, p {
     color: $titelentekst;
+    text-align: center;
 }
 
 h1, h2 {
@@ -36,7 +43,7 @@ h1, h2 {
 }
 
 p {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
 }
 
 a {
@@ -114,6 +121,7 @@ a {
 // winkelmandje //
 .winkelmandje {
     margin-top: 80px;
+    margin-right: 50px;
 }
 
 //images//
@@ -123,7 +131,7 @@ a {
 }
 
 .img-product:hover {
-    transform: scale(2.1);
+    transform: scale(1.3);
 }
 
 // Small devices (landscape phones, 576px and up)
@@ -133,6 +141,9 @@ a {
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) { 
+    h1, h2, h3, h4, p {
+        text-align: left;
+    }
     h1 {
         font-size: 4rem;
     }
@@ -146,7 +157,34 @@ a {
     h4 {
         font-size: 2rem;
     }
+
+    p {
+        font-size: 1.2rem;
+    }
+
+    #back-to-top {
+        font-size: 20px;
+    }
+
+    .winkelmandje {
+        margin-right: 0px;
+    }
+
+    .btn-winkelmandje {
+        display: block;
+        float: right;
+        margin-right: 10px;
+    }
+
+    .btn-paypal {
+        margin-top: 50px;
+    }
+
+    .btn-footer {
+        float: right;
+    }
  }
+
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) { 
