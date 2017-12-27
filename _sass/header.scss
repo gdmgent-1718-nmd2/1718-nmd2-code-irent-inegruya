@@ -3,6 +3,9 @@
     background-color: $orange; 
 }
 
+.nav-itemactive:active {
+    background-color: $purple;
+}
 .nav-link:hover {
     background-color: $purple;
 }

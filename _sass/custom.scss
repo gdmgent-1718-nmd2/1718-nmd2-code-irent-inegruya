@@ -95,6 +95,12 @@ a {
     color: $white;
 }
 
+.btn-product:active {
+    border: 3px solid $orange;
+    background-color: orange;
+    color: $white;
+}
+
 //icons //
 #instagram {
     background-image: url('../../images/instagram.png');
@@ -133,6 +139,7 @@ a {
 .img-product:hover {
     transform: scale(1.3);
 }
+
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width: 768px) { 
@@ -183,6 +190,17 @@ a {
     .btn-footer {
         float: right;
     }
+
+    .instagram-icon {
+        margin-left: -25px;
+    }
+
+    .facebook-icon {
+        margin-right: 100px;
+        margin-left: -75px;
+    }
+
+
  }
 
 
@@ -193,9 +211,24 @@ a {
         width: 100%;
     }
 
+    .instagram-icon {
+        margin-left: -45px;
+    }
+
+    .facebook-icon {
+        margin-right: 155px;
+        margin-left: -110px;
+    }
  }
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { 
+    .instagram-icon {
+        margin-left: -65px;
+    }
 
+    .facebook-icon{
+        margin-right: 205px;
+        margin-left: -140px;
+    }
  }
