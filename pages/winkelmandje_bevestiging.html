@@ -13,52 +13,72 @@ title: bevestiging
 </nav>
 
 <div class="row mb-5 d-flex justify-content-center">
-    <a href="#"> <button type="button" class="btn btn-primary btn-lg rounded-circle px-4 py-2"> 1 </button> </a>
-    <a href="#"> <button type="button" class="btn btn-primary btn-lg rounded-circle ml-5 px-4"> 2 </button></a>
+    <a href="#"> <button type="button" class="btn btn-primary btn-lg rounded-circle px-4 py-2 disabled"> 1 </button> </a>
+    <a href="#"> <button type="button" class="btn btn-primary btn-lg rounded-circle ml-5 px-4 active"> 2 </button></a>
 </div>
 
 <div class="row">
-    <button type="button" class="btn btn-primary rounded-circle px-4 py-2 mr-3"> 2 </button>
+    <button type="button" class="btn btn-primary rounded-circle px-4 py-2 mr-3 active"> 2 </button>
         <h4 class="mt-2"> bevestiging </h4>
 </div>
 
 <div class="row">
     <div class="col-md-3">
-        <img class="">
+        <img class="img-fluid">
             <h4 class="text-right"> Item </h4>
-                <a href="https://placeholder.com"><img src="http://via.placeholder.com/250x150"></a>
+                <img src="../images/stoel.png" alt="ruimtezitje" class="img-fluid">
         </img>
         <p class="text-right mt-2"> Ruimtezitje </p>
     </div>
-    <div class="col-md-4">
-        <div class="row">
+
+    <div class="col-md-9 winkelmandje">
+        <div class="row justify-content-end">
             <p class="font-weight-bold"> Prijs </p>
         </div>
-        <div class="row">
+        <div class="row justify-content-end">
             <p> 9876532 Euro </p>
         </div>
-        <div class="row">
+        <div class="row justify-content-end">
             <p class="font-weight-bold"> TOTAAL: 9876532 Euro </p>
         </div>
     </div>
 </div>
 
-<div class="row">
+<div class="row justify-content-center mt-5 mb-4">
     <p> Bestelling succesvol afgerond <br>
     We wensen u een goede vlucht</p>
 </div>
 
-<div class="row">
-    blijf op de hoogte van alle ruimtevaartnieuws 
+<div class="row justify-content-center mt-5 mb-3">
+    blijf op de hoogte van alle ruimtevaartnieuws.<br>
+    Schrijf je in voor onze nieuwsbrief 
 </div>
 
-<form> 
-    <label for="inputemail"> Nieuwsbrief </label>
-    <div class="form-group row">
-        <div class="col-md-6">
-            <input type="email" class="form-control" id="inputemail" placeholder="email">
+<div class="row justify-content-center mb-5">
+    <div class="col-md-8">
+        <form> 
+            <div class="form-group row justify-content-center">
+                <div class="col-md-6">
+                    <input type="email" class="form-control" id="inputemail" placeholder="email">
+                </div>
+            </div>
+            <button type="button" class="btn btn-primary d-block mx-auto" data-toggle="modal" data-target="#exampleModal">
+                Inschrijven
+            </button>
+        </form>
+    </div>
+</div>
+
+<div class="modal fade " id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                U bent ingeschreven voor onze nieuwsbrief
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
         </div>
     </div>
-   <button type="submit" class="btn btn-success"> Verzend </button> 
-</form>
-
+</div>
